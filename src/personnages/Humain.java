@@ -48,9 +48,7 @@ public class Humain {
 		
 	}
 	
-	
-	
-	public void parler(String texte) {
+	protected void parler(String texte) {
 		System.out.println("("+this.getNom()+") - "+texte);
 	}
 }
