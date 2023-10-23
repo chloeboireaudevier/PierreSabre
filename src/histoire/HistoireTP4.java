@@ -1,5 +1,6 @@
 package histoire;
 import personnages.Humain;
+import personnages.Ronin;
 import personnages.Commercant;
 import personnages.Yakuza;
 
@@ -27,6 +28,10 @@ public class HistoireTP4 {
 		yakuLeNoir.direBonjour();
 		yakuLeNoir.extorquer(Marco);
 		
+		System.out.println("\n");
+		Ronin Roro = new Ronin("Roro","shochu",60);
+		Roro.direBonjour();
+		Roro.donner(Marco);
 	}
 
 }
