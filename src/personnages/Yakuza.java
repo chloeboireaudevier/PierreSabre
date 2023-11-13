@@ -2,7 +2,7 @@ package personnages;
 
 public class Yakuza extends Humain{
 	private String clan;
-	private int reputation = 0;
+	private int reputation = 4;
 	
 	public Yakuza(String nom, int argent, String boissonFavorite, String clan) {
 		super(nom, boissonFavorite, argent);
