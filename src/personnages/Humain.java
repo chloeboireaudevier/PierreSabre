@@ -62,7 +62,7 @@ public class Humain {
 		return rencontre;
 	}
 	
-	private Humain memoriser(Humain rencontre) {
+	protected Humain memoriser(Humain rencontre) {
 		if (this.nbConnaissance < nb_connaissances_max) {
 		this.memoire[this.nbConnaissance] = rencontre;
 		this.nbConnaissance +=1;

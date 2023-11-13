@@ -40,6 +40,12 @@ public class HistoireTP5 {
 		masako.faireConnaissanceAvec(yaku);
 		masako.faireLeGentil();
 		masako.faireConnaissanceAvec(roro);
+		
+		Samourai akira = new Traitre("Akira", "whisky", 50, "Miyamoto" );
+		Ronin hiro = new Traitre("Hiro", "saké", 20, "Miyamoto" );
+		Humain nori = new Traitre("Nori", "whisky", 70, "Miyamoto" );
+
+		
 	}
 
 }
